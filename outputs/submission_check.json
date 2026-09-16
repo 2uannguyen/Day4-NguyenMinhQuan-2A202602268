@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "check": "20 train labels with matching image names",
+      "passed": true
+    },
+    {
+      "check": "56 numbers per line, 28 skeletons",
+      "passed": true
+    },
+    {
+      "check": "Train labels unchanged from notebook training set",
+      "passed": true
+    },
+    {
+      "check": "COCO images and annotations",
+      "passed": true
+    },
+    {
+      "check": "COCO keypoint names",
+      "passed": true
+    },
+    {
+      "check": "COCO 51 values and valid visibility",
+      "passed": true
+    },
+    {
+      "check": "COCO dimensions match source images",
+      "passed": true
+    },
+    {
+      "check": "Visibility JSON computed from submitted labels",
+      "passed": true
+    },
+    {
+      "check": "476 visibility entries",
+      "passed": true
+    },
+    {
+      "check": "Model JSON preserved byte-for-byte",
+      "passed": true
+    },
+    {
+      "check": "All model deltas accurate",
+      "passed": true
+    },
+    {
+      "check": "Metrics match saved notebook output",
+      "passed": true
+    },
+    {
+      "check": "All eight requested artifact groups present",
+      "passed": true
+    },
+    {
+      "check": "Local links resolve: GUIDELINE_MINI.md",
+      "passed": true
+    },
+    {
+      "check": "Local links resolve: reports/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "Local links resolve: reports/review_partner.md",
+      "passed": true
+    },
+    {
+      "check": "Label checker train exit 0",
+      "passed": true
+    },
+    {
+      "check": "Label checker test exit 0",
+      "passed": true
+    },
+    {
+      "check": "No tracked gold or test labels modified",
+      "passed": true
+    }
+  ],
+  "sha256": {
+    "dataset/labels/train/train_01.txt": "e927c58df8c0d6ff424fcb2c72bbf6a12a45702f18684e8b4726303141b38e13",
+    "dataset/labels/train/train_02.txt": "eb7a64aaa96ef30f2fd348d57bca7c11849244463dd2aae923bc94f10edfc8cb",
+    "dataset/labels/train/train_03.txt": "25f501bd237f7954f37743ebee5a4013dee3d56e86d92f0b5b821a5a43f4e916",
+    "dataset/labels/train/train_04.txt": "92df01db229e7bcb17829cf4d2b0505d52fad43171859b6027ffe460a2f98485",
+    "dataset/labels/train/train_05.txt": "5d31e69c121bbc5c2ec091f80c71ac25cefeebe9e4affb33607fbda5cb4da25f",
+    "dataset/labels/train/train_06.txt": "eb3c43365a6cddf116ace4f4c6388413c2b0c6ffa1fceb813c8bf33d894f3050",
+    "dataset/labels/train/train_07.txt": "37c7560d94ba778d239c010e388a2d7a7d06fc09ca00550a8dd2ebf2ec356544",
+    "dataset/labels/train/train_08.txt": "58dabd2f50b373edee74b2daa44e33d38109e67a04fdb0d5db0215137ce653e7",
+    "dataset/labels/train/train_09.txt": "ff737a493dfd2470c185e790d911ee591bfc1235c551bceb76dbd46dcb3bdcbe",
+    "dataset/labels/train/train_10.txt": "a40be2caccbbcb4b31f5bdabd5c33b3c84a331a03710d0bba0cbc34381ee41df",
+    "dataset/labels/train/train_11.txt": "69834c66a3b266923f94c694be2a83481a794b1f0e97b565cf50f5b6dd7fef2b",
+    "dataset/labels/train/train_12.txt": "49a6521002d362cb193baace38e3d2ad0e8acabda856212d413e0e222da44dcc",
+    "dataset/labels/train/train_13.txt": "35707d507351ff05090921c40ccb598b0e22836d5bbed08eb6b761f083865994",
+    "dataset/labels/train/train_14.txt": "8a716d7655c74a7a7d0b9de568fa5a3c3ded6bb0f2aa7ae3b096cf8bc033a920",
+    "dataset/labels/train/train_15.txt": "5048a88fe34c75dbddef93dc10f60d98dc76f30ef906130e206aec44a83d734b",
+    "dataset/labels/train/train_16.txt": "8e2f7763d4b224fd603d7f20cd68a8e3fcdc88355c3a253010d2a6f1d93b8690",
+    "dataset/labels/train/train_17.txt": "24c323a25c678ddb0e5cef3b6064fcec931f8ba5a62372fe580e135b7bfe63f2",
+    "dataset/labels/train/train_18.txt": "f147f9b7df603450c92f0629aecaad7064f94bee9955ecf6abdfd6fcab9cb78d",
+    "dataset/labels/train/train_19.txt": "4e68cbae7b73b99490a864f26022088038382b7554219f8a0a8a8652806334c0",
+    "dataset/labels/train/train_20.txt": "8195ab290fbedf6234d5b7f3d4850fae597abd5c4e1bd94655b6ac637f9b4685",
+    "annotations/coco_keypoints/person_keypoints_default.json": "e368cefe5ca9395cb7e898c19213a43dcb7553f45fc0f4a457042cbc2d142687",
+    "outputs/eval_model.json": "fbc364bfceb3b45aa129d4b29a17b1c875ceb9f8e976a446574497dd0c83308b",
+    "outputs/eval_vs_gold.json": "6f40aa46c461de1aff798d9a87a8482747aee3d13f70101123d0e8f74fac2804"
+  },
+  "limitations": [
+    "Personal assignment: no partner review data",
+    "No post-rework evaluation",
+    "Rendered evidence images are not CVAT screenshots",
+    "Eight nonblocking train-label warnings; two nham_nguoi findings and one missing person remain"
+  ]
+}

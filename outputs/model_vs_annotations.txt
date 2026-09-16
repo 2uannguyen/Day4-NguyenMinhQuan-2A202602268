@@ -1,0 +1,34 @@
+ảnh                            OKS model vs nhãn của bạn
+train_06                                           0.669
+train_15                                           0.671
+train_09                                           0.677
+train_14                                           0.679
+train_14                                           0.703
+train_13                                           0.706
+train_12                                           0.724
+train_02                                           0.726
+train_03                                           0.738
+train_19                                           0.742
+train_11                                           0.743
+train_01                                           0.766
+train_10                                            0.77
+train_04                                           0.808
+train_16                                           0.811
+train_01                                           0.824
+train_16                                           0.826
+train_15                                           0.828
+train_05                                           0.853
+train_04                                           0.857
+train_20                                            0.87
+train_19                                           0.871
+train_18                                           0.895
+train_03                                           0.902
+train_13                                           0.905
+train_07                                           0.908
+train_08                                           0.911
+train_17                                           0.943
+train_10 (số người lệch)                 model 2 / bạn 1
+train_03 (số người lệch)                 model 3 / bạn 2
+train_13 (số người lệch)                 model 3 / bạn 2
+
+OKS thấp = model và bạn bất đồng. Xem lại ảnh đó bằng tools/visualize_pose.py.
