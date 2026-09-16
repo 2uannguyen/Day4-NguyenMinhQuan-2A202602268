@@ -1,6 +1,6 @@
 {
   "report": {
-    "label_dir": "dataset/labels/train",
+    "label_dir": "/home/peter/Documents/Day4-NguyenMinhQuan-2A202602268/dataset/labels/train",
     "files": 20,
     "people": 28,
     "mean_num_keypoints": 16.04,

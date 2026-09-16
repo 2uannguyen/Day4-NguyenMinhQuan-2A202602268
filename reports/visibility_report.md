@@ -1,6 +1,6 @@
 # Visibility report
 
-- Thư mục nhãn: `dataset/labels/train`
+- Thư mục nhãn: `/home/peter/Documents/Day4-NguyenMinhQuan-2A202602268/dataset/labels/train`
 - 20 ảnh, 28 skeleton, trung bình 16.04 khớp có v > 0 mỗi người
 - Tổng: v=2 361 | v=1 88 | v=0 27
 
